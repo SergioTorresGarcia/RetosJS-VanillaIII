@@ -57,14 +57,29 @@
 
 // 7. Pide al usuario que teclee 4 números (uno cada vez). Con esos números el programa deberá calcular la media aritmética (la suma de todos ellos dividido por la cantidad de números).
 
-let num1 = parseInt(5)
-let num2 = parseInt(6)
-let num3 = parseInt(2)
-let num4 = parseInt(8)
-let media = (num1+num2+num3+num4)/4
-console.log("la media aritmética de esos números es:", media)
+// let num1 = parseInt(5)
+// let num2 = parseInt(6)
+// let num3 = parseInt(2)
+// let num4 = parseInt(8)
+// let media = (num1+num2+num3+num4)/4
+// console.log("la media aritmética de esos números es:", media)
 
 // 8. Saca por consola los números primos del 0 al número que introduzca un usuario por prompt.
+
+let num = 50
+
+for (let i = 2; i < num; i++) {
+    let prime = true
+    for (j = 2; j < i; j++) {
+        if (i % j === 0) {
+            prime = false
+            break
+        }
+    }
+    if (prime) {
+        console.log(i)
+    }
+}
 
 // 9. Dado un número entero, muestra una cuenta atrás desde el número tecleado hasta el 0.
 // Modifica el programa para que el usuario introduzca dos números y se efectúe una cuenta atrás desde el primer número hasta el segundo. Modifícalo de nuevo para que el programa determine qué número es el mayor y cuente desde el mayor hasta el menor.
