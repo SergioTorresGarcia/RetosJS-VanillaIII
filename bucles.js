@@ -28,17 +28,22 @@
 
 // 4. Escribe la tabla de multiplicar de un número introducido por el usuario.
 
-let num = 7
+// let num = 7
 
-for (i = 1; i <= 10; i++) {
-    console.log(`${num} x ${i} = ${num*i}`)
-}
+// for (i = 1; i <= 10; i++) {
+//     console.log(`${num} x ${i} = ${num*i}`)
+// }
 
 // 5. Formar un triángulo de este estilo
-// *
-// **
-// ***
-// ****
+
+let num = 5
+for (i = 0; i < num; i++) {
+    lista=""
+    for (j = 0; i >= j; j++) {
+        lista += "*"
+    }
+    console.log(lista)
+}
 
 // 6. Con la cantidad de líneas que indique el usuario.
 
