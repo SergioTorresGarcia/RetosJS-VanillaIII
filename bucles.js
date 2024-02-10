@@ -47,15 +47,22 @@
 
 // 6. Calcula la suma de todos los números enteros positivos entre 0 y el número tecleado por el usuario.
 
-let num = 5
+// let num = 5
 
-let total = 0
-for(let i=0; i<=num; i++){
-    total += i
-}
-console.log(total)
+// let total = 0
+// for(let i=0; i<=num; i++){
+//     total += i
+// }
+// console.log(total)
 
 // 7. Pide al usuario que teclee 4 números (uno cada vez). Con esos números el programa deberá calcular la media aritmética (la suma de todos ellos dividido por la cantidad de números).
+
+let num1 = parseInt(5)
+let num2 = parseInt(6)
+let num3 = parseInt(2)
+let num4 = parseInt(8)
+let media = (num1+num2+num3+num4)/4
+console.log("la media aritmética de esos números es:", media)
 
 // 8. Saca por consola los números primos del 0 al número que introduzca un usuario por prompt.
 
