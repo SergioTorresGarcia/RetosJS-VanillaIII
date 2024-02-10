@@ -79,11 +79,29 @@
 // 9. Crea un programa para una tienda de coches: si el coche a la venta es un Ford Fiesta, el descuento es de un 5 %. Si el coche a la venta es un Ford Focus, el descuento es del 10 %.
 // El usuario introduce marca y modelo y el programa saca el descuento correspondiente por pantalla.
 
-let marca = "Ford"
-let model = "Focus"
+// let marca = "Ford"
+// let model = "Focus"
 
-if (marca == "Ford" && model == "Fiesta") {
-    console.log("descuento es de un 5 %")
-} else if (marca == "Ford" && model == "Focus") {
-    console.log("descuento es de un 10 %")
+// if (marca == "Ford" && model == "Fiesta") {
+//     console.log("descuento es de un 5 %")
+// } else if (marca == "Ford" && model == "Focus") {
+//     console.log("descuento es de un 10 %")
+// }
+
+// 10. Crea un programa en el que el usuario introduzca el número del mes (del 1 al 12) y el código responda cuántos días tiene ese mes.
+
+let numMes = 5
+
+switch (numMes) {
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+        console.log(`El mes ${numMes} tiene 30 dias`)
+        break;
+    case 2:
+        console.log("Febrero tiene 28 dias (o 29, cada 4 años)")
+        break;
+    default:
+        console.log(`El mes ${numMes} tiene 31 dias`)
 }
