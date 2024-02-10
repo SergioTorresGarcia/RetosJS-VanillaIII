@@ -35,10 +35,21 @@
 // }
 
 // 4. Pedir un string y determinar si tiene cinco caracteres o más.
-let word = "photography"
+// let word = "photography"
 
-if (word.length >= 5) {
-        console.log(`${word.trim()} tiene 5 o más caracteres`)
-    } else {
-        console.log(`${word.trim()} tiene menos de 5 caracteres`)
-    }
+// if (word.length >= 5) {
+//         console.log(`${word.trim()} tiene 5 o más caracteres`)
+//     } else {
+//         console.log(`${word.trim()} tiene menos de 5 caracteres`)
+//     }
+
+// 5. Pedir tres números enteros con un valor del 1 al 10, sacar el promedio de los tres números y determinar si el promedio es mayor que cinco.
+let num1 = parseInt(4)
+let num2 = parseInt(2)
+let num3 = parseInt(6)
+
+let media = parseFloat((num1+num2+num3)/3)
+console.log(`La media es ${(media)}`)
+console.log(`La media es ${(media > 5) ? "mayor" : "menor"} que 5`)
+
+
