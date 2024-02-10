@@ -5,21 +5,26 @@
 // let lista = []
 // for (let i = 0; i<=num; i++) {
 //     lista.push(i)
-    
+
 // }
 // console.log(lista.join(","))
 
 // 2. Hacer un programa que cuente de N en N hasta un número M proporcionado por el usuario. El usuario también ha de proporcionar N.
 
-let N = parseInt(3)
-let M = parseInt(34)
+// let N = parseInt(3)
+// let M = parseInt(34)
 
-for (i = 0; i<= M; i = i+3) {
-    
-    console.log(i)
-}
+// for (i = 0; i <= M; i = i + 3) {
+//     console.log(i)
+// }
 
 // 3. Genera una lista con todos los números pares positivos por debajo del número tecleado por el usuario.
+
+let limite = parseInt(10)
+
+for (i = 2; i < limite; i++) {
+    (i % 2 == 0) ? console.log(i) : false
+}
 
 // 4. Escribe la tabla de multiplicar de un número introducido por el usuario.
 
