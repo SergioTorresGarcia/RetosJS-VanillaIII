@@ -20,13 +20,19 @@
 
 // 3. Genera una lista con todos los números pares positivos por debajo del número tecleado por el usuario.
 
-let limite = parseInt(10)
+// let limite = parseInt(10)
 
-for (i = 2; i < limite; i++) {
-    (i % 2 == 0) ? console.log(i) : false
-}
+// for (i = 2; i < limite; i++) {
+//     (i % 2 == 0) ? console.log(i) : false
+// }
 
 // 4. Escribe la tabla de multiplicar de un número introducido por el usuario.
+
+let num = 7
+
+for (i = 1; i <= 10; i++) {
+    console.log(`${num} x ${i} = ${num*i}`)
+}
 
 // 5. Formar un triángulo de este estilo
 // *
