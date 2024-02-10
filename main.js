@@ -44,12 +44,20 @@
 //     }
 
 // 5. Pedir tres números enteros con un valor del 1 al 10, sacar el promedio de los tres números y determinar si el promedio es mayor que cinco.
-let num1 = parseInt(4)
-let num2 = parseInt(2)
-let num3 = parseInt(6)
+// let num1 = parseInt(4)
+// let num2 = parseInt(2)
+// let num3 = parseInt(6)
 
-let media = parseFloat((num1+num2+num3)/3)
-console.log(`La media es ${(media)}`)
-console.log(`La media es ${(media > 5) ? "mayor" : "menor"} que 5`)
+// let media = parseFloat((num1+num2+num3)/3)
+// console.log(`La media es ${(media)}`)
+// console.log(`La media es ${(media > 5) ? "mayor" : "menor"} que 5`)
 
+// 6. Pedir una cadena de texto y comprobar que todas sus letras estén en minúsculas.
 
+let word = "Poland"
+
+if(word.toLowerCase() === word) {
+    console.log("todas sus letras son minúsculas")
+} else {
+    console.log("Una o más letras son mayúsculas")
+}
