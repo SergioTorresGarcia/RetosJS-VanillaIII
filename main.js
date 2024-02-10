@@ -24,12 +24,21 @@
 // }
 
 // 3. Pedir un número y decir si es un número negativo, si es positivo o cero.
-let num = parseInt(0)
+// let num = parseInt(0)
 
-if (num > 0) {
-    console.log(`${num} es un número positivo`)
-} else if (num < 0) {
-    console.log(`${num} es un número negativo`)
-} else {
-    console.log(`${num} es cero`)
-}
+// if (num > 0) {
+//     console.log(`${num} es un número positivo`)
+// } else if (num < 0) {
+//     console.log(`${num} es un número negativo`)
+// } else {
+//     console.log(`${num} es cero`)
+// }
+
+// 4. Pedir un string y determinar si tiene cinco caracteres o más.
+let word = "photography"
+
+if (word.length >= 5) {
+        console.log(`${word.trim()} tiene 5 o más caracteres`)
+    } else {
+        console.log(`${word.trim()} tiene menos de 5 caracteres`)
+    }
