@@ -85,31 +85,45 @@
 // Modifica el programa para que el usuario introduzca dos números y se efectúe una cuenta atrás desde el primer número hasta el segundo. Modifícalo de nuevo para que el programa determine qué número es el mayor y cuente desde el mayor hasta el menor.
 
 // a)
-let num = 15
-for (i = num; i>=0; i--) {
-    console.log(i)
-} 
+// let num = 15
+// for (i = num; i>=0; i--) {
+//     console.log(i)
+// } 
 
 // b)
-let num1 = 15
-let num2 = 5
-for (i = num1; i>= num2; i--){
-    console.log(i)
-}
+// let num1 = 15
+// let num2 = 5
+// for (i = num1; i>= num2; i--){
+//     console.log(i)
+// }
 
 // c)
-let num3 = 25
-let num4 = 15
+// let num3 = 25
+// let num4 = 15
 
-if(num3 > num4) {
-    for (i = num3; i>= num4; i--){
-        console.log(i)
-    }
-} else {
-    for (i = num4; i>= num3; i--){
-        console.log(i)
-    }
-}
+// if(num3 > num4) {
+//     for (i = num3; i>= num4; i--){
+//         console.log(i)
+//     }
+// } else {
+//     for (i = num4; i>= num3; i--){
+//         console.log(i)
+//     }
+// }
 //consultar si se puede con ternaria
 
 // 10. Pide al usuario cinco números, almacénalos en un array y muestra por consola el resultado de cada uno de ellos multiplicado por 3. Muestra también un array que contenga todos los resultados.
+
+let num1 = parseInt(3)
+let num2 = parseInt(45)
+let num3 = parseInt(6)
+let num4 = parseInt(87)
+let num5 = parseInt(2)
+
+let arr = [num1, num2, num3, num4, num5]
+let arr2 = []
+for (let num of arr) {
+    console.log(`${num} x 3 = `, num*3)
+    arr2.push(num*3)
+}
+console.log(arr2)
