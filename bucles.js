@@ -1,15 +1,23 @@
 // **Bucles**
 // 1. Escribir un script que pida un valor entero y muestre en pantalla una lista de números desde el 0 al valor tecleado. Los números se separarán por comas.
 
-let num = 5
-let lista = []
-for (let i = 0; i<num; i++) {
-    lista.push(i)
+// let num = 5
+// let lista = []
+// for (let i = 0; i<=num; i++) {
+//     lista.push(i)
     
-}
-console.log(lista.join(","))
+// }
+// console.log(lista.join(","))
 
 // 2. Hacer un programa que cuente de N en N hasta un número M proporcionado por el usuario. El usuario también ha de proporcionar N.
+
+let N = parseInt(3)
+let M = parseInt(34)
+
+for (i = 0; i<= M; i = i+3) {
+    
+    console.log(i)
+}
 
 // 3. Genera una lista con todos los números pares positivos por debajo del número tecleado por el usuario.
 
