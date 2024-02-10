@@ -54,10 +54,15 @@
 
 // 6. Pedir una cadena de texto y comprobar que todas sus letras estén en minúsculas.
 
-let word = "Poland"
+// let word = "Poland"
 
-if(word.toLowerCase() === word) {
-    console.log("todas sus letras son minúsculas")
-} else {
-    console.log("Una o más letras son mayúsculas")
-}
+// if(word.toLowerCase() === word) {
+//     console.log("todas sus letras son minúsculas")
+// } else {
+//     console.log("Una o más letras son mayúsculas")
+// }
+
+// 7. Crear un número aleatorio entre el 1 y 20 y comprobar si es par o impar. Mostrar además el número.
+
+let num = Math.floor(Math.random() * 19 + 1)
+num % 2 == 0 ? console.log(`El número ${num} es par`) : console.log(`El número ${num} es impar`)
