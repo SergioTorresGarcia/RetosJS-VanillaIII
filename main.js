@@ -112,17 +112,34 @@
 
 //     b) Si el diámetro es superior a 1.4 con un grosor inferior a 0.4, o si el diámetro es menor o igual a 1.4 pero mayor que 0.8, con un grosor inferior a 0.25, deberá mostrarse el mensaje “El grosor para esta rueda es inferior al recomendado”
 
-let diametro = 1.90
-let grosor = 0.40
-//a)
-if (diametro > 1.4) {
-    console.log("La rueda es para un vehículo grande")
-} else if (0.8 < diametro && diametro <= 1.4) {
-    console.log("La rueda es para un vehículo mediano")
-} else {
-    console.log("La rueda es para un vehículo pequeño")
+// let diametro = 1.90
+// let grosor = 0.40
+// //a)
+// if (diametro > 1.4) {
+//     console.log("La rueda es para un vehículo grande")
+// } else if (0.8 < diametro && diametro <= 1.4) {
+//     console.log("La rueda es para un vehículo mediano")
+// } else {
+//     console.log("La rueda es para un vehículo pequeño")
+// }
+// //b)
+// if ((diametro > 1.4 && grosor < 0.4) || (diametro <= 1.4 && diametro > 0.8 && grosor < 0.25)) {
+//     console.log("El grosor para esta rueda es inferior al recomendado")
+// }
+
+// 12. Crea un programa en que se definan variables para el precio por kilómetro, el vehículo y los kilómetros recorridos. El vehículo y los kilómetros recorridos deben ser proporcionados por el usuario. A continuación, el programa debe realizar los cálculos para obtener el total a pagar, teniendo en cuenta las siguientes consideraciones: si el vehículo es “coche”, el precio por kilómetro ha de ser 0.10, si es “moto” ha de ser 0.20 y si es “autobús”, 0.5.
+
+let precioKm
+let vehiculo = "coche"  // "moto"  "autobus"
+let kmRecorridos = parseFloat(56)
+
+if (vehiculo === "coche") {
+    precioKm = parseFloat(0.10)
+} else if (vehiculo === "moto") {
+    precioKm = parseFloat(0.20)
+} else if (vehiculo === "autobus") {
+    precioKm = parseFloat(0.50)
 }
-//b)
-if ((diametro > 1.4 && grosor < 0.4) || (diametro <= 1.4 && diametro > 0.8 && grosor < 0.25)) {
-    console.log("El grosor para esta rueda es inferior al recomendado")
-}
+let total = (kmRecorridos * precioKm).toFixed(2)
+
+console.log("Total a pagar:",total)
