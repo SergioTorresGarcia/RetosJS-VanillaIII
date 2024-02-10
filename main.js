@@ -69,9 +69,21 @@
 
 // 8. Crea un programa que lea tres notas de un alumno, calcule la media e indique si ha aprobado o no.
 
-let nota1 = parseFloat(6)
-let nota2 = parseFloat(8)
-let nota3 = parseFloat(4.5)
+// let nota1 = parseFloat(6)
+// let nota2 = parseFloat(8)
+// let nota3 = parseFloat(4.5)
 
-let media = ( nota1 + nota2 + nota3 ) / 3
-media >= 5 ? console.log(`El alumno ha aprobado con una media de ${media.toFixed(1)}`) : console.log("El alumno está suspenso")
+// let media = ( nota1 + nota2 + nota3 ) / 3
+// media >= 5 ? console.log(`El alumno ha aprobado con una media de ${media.toFixed(1)}`) : console.log("El alumno está suspenso")
+
+// 9. Crea un programa para una tienda de coches: si el coche a la venta es un Ford Fiesta, el descuento es de un 5 %. Si el coche a la venta es un Ford Focus, el descuento es del 10 %.
+// El usuario introduce marca y modelo y el programa saca el descuento correspondiente por pantalla.
+
+let marca = "Ford"
+let model = "Focus"
+
+if (marca == "Ford" && model == "Fiesta") {
+    console.log("descuento es de un 5 %")
+} else if (marca == "Ford" && model == "Focus") {
+    console.log("descuento es de un 10 %")
+}
