@@ -66,22 +66,50 @@
 
 // 8. Saca por consola los números primos del 0 al número que introduzca un usuario por prompt.
 
-let num = 50
+// let num = 50
 
-for (let i = 2; i < num; i++) {
-    let prime = true
-    for (j = 2; j < i; j++) {
-        if (i % j === 0) {
-            prime = false
-            break
-        }
-    }
-    if (prime) {
-        console.log(i)
-    }
-}
+// for (let i = 2; i < num; i++) {
+//     let prime = true
+//     for (j = 2; j < i; j++) {
+//         if (i % j === 0) {
+//             prime = false
+//             break
+//         }
+//     }
+//     if (prime) {
+//         console.log(i)
+//     }
+// }
 
 // 9. Dado un número entero, muestra una cuenta atrás desde el número tecleado hasta el 0.
 // Modifica el programa para que el usuario introduzca dos números y se efectúe una cuenta atrás desde el primer número hasta el segundo. Modifícalo de nuevo para que el programa determine qué número es el mayor y cuente desde el mayor hasta el menor.
+
+// a)
+let num = 15
+for (i = num; i>=0; i--) {
+    console.log(i)
+} 
+
+// b)
+let num1 = 15
+let num2 = 5
+for (i = num1; i>= num2; i--){
+    console.log(i)
+}
+
+// c)
+let num3 = 25
+let num4 = 15
+
+if(num3 > num4) {
+    for (i = num3; i>= num4; i--){
+        console.log(i)
+    }
+} else {
+    for (i = num4; i>= num3; i--){
+        console.log(i)
+    }
+}
+//consultar si se puede con ternaria
 
 // 10. Pide al usuario cinco números, almacénalos en un array y muestra por consola el resultado de cada uno de ellos multiplicado por 3. Muestra también un array que contenga todos los resultados.
