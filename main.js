@@ -64,5 +64,14 @@
 
 // 7. Crear un número aleatorio entre el 1 y 20 y comprobar si es par o impar. Mostrar además el número.
 
-let num = Math.floor(Math.random() * 19 + 1)
-num % 2 == 0 ? console.log(`El número ${num} es par`) : console.log(`El número ${num} es impar`)
+// let num = Math.floor(Math.random() * 19 + 1)
+// num % 2 == 0 ? console.log(`El número ${num} es par`) : console.log(`El número ${num} es impar`)
+
+// 8. Crea un programa que lea tres notas de un alumno, calcule la media e indique si ha aprobado o no.
+
+let nota1 = parseFloat(6)
+let nota2 = parseFloat(8)
+let nota3 = parseFloat(4.5)
+
+let media = ( nota1 + nota2 + nota3 ) / 3
+media >= 5 ? console.log(`El alumno ha aprobado con una media de ${media.toFixed(1)}`) : console.log("El alumno está suspenso")
