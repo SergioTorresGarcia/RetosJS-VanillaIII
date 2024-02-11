@@ -83,15 +83,28 @@
 
 // 7. Crea una función que, dada una frase, convierta las A en 4, las E en 3, las I en 1 y las O en 0.
 
-const Codigo = (frase) => {
+// const Codigo = (frase) => {
 
-    let nueva = frase.replace("A", "4").replace("E", "3").replace("I", "1").replace("O", "0")
-    console.log(nueva)
-}
-Codigo("Arbol Enano Interesa Oso")
+//     let nueva = frase.replace("A", "4").replace("E", "3").replace("I", "1").replace("O", "0")
+//     console.log(nueva)
+// }
+// Codigo("Arbol Enano Interesa Oso")
 
 
 // 8. Crea una función que, dada una frase, cuente la cantidad de una letra en la misma. Por ejemplo, dada la palabra “javascript” y la letra “a”, debería devolver un 2.
+
+let count = 0
+const ContarLetras = (frase, letra) => {
+    let arr = Array.from(frase.toLowerCase())
+    for(ch of arr) {
+        if (ch === letra) {
+            count++
+        }
+    }
+    
+    return console.log(`There are ${count} "${letra}" in "${frase}"`)
+}
+ContarLetras("Javascript is not very strict", "r")
 
 // 9. Crea una función que, dado un array de números, devuelva el número más grande del mismo.
 
