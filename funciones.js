@@ -108,11 +108,19 @@
 
 // 9. Crea una función que, dado un array de números, devuelva el número más grande del mismo.
 
-const OrderArray = (arr) => {
-    return console.log(arr.sort((a, b) => a - b).slice(-1))
-}
-OrderArray([3, 7, 2, 35, 24])
+// const OrderArray = (arr) => {
+//     return console.log(arr.sort((a, b) => a - b).slice(-1))
+// }
+// OrderArray([3, 7, 2, 35, 24])
 
 // 10. Crea una función que, dado un array de números, devuelva la suma de todos los números que contiene.
+
+const SumArray = (arr) => {
+    let total = 0
+    arr.map(el => total += el)
+    return console.log("La suma total de los elementos es",total)
+}
+SumArray([3, 7, 2, 35, 24])
+
 
 // 11. Crea una función que, dados dos números A y B, obtenga el porcentaje(B) de un número(A).
