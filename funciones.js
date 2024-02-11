@@ -18,28 +18,39 @@
 
 // 3. Crea una función que determine si un número es primo o no.
 
-const EsPrimo = (num) => {
+// const EsPrimo = (num) => {
 
-    if (num === 1) {
-        return false
-    }
-    else if (num === 2) {
-        return true
-    } else {
-        for (let i = 2; i < num; i++) {
-            if (num % i === 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-}
+//     if (num === 1) {
+//         return false
+//     }
+//     else if (num === 2) {
+//         return true
+//     } else {
+//         for (let i = 2; i < num; i++) {
+//             if (num % i === 0) {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+// }
 
-EsPrimo(21) ? console.log(`SÍ es primo`) : console.log(`NO es primo`)
+// EsPrimo(21) ? console.log(`SÍ es primo`) : console.log(`NO es primo`)
 
 
 
 // 4. Crea una función que reciba un número de dni como parámetro, y devuelva la letra del mismo. Si el dni tiene algún error debe comunicarlo. Recuerda que el array de letras de DNI es [TRWAGMYFPDXBNJZSQVHLCKE].
+
+let arr = Array.from("TRWAGMYFPDXBNJZSQVHLCKE")
+const ComprobarDNI = (num) => {
+    let i = num % 23
+    let letra = arr[i]
+    let result = console.log(num, letra)
+    return result
+}
+
+console.log(ComprobarDNI(55433740))
+
 
 // 5. Crea una función que reciba 2 parámetros, precio e iva, y devuelva el precio con iva incluido. Si no recibe el iva, aplicará el 21 por ciento por defecto.
 
