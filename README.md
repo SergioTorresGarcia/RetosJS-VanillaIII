@@ -38,17 +38,15 @@ El usuario introduce marca y modelo y el programa saca el descuento correspondie
 
 4. Escribe la tabla de multiplicar de un número introducido por el usuario.
 
-5. Formar un triángulo de este estilo
+5. Formar un triángulo de este estilo con la cantidad de líneas que indique el usuario.
 *
 **
 ***
 ****
 
-6. Con la cantidad de líneas que indique el usuario.
+6. Calcula la suma de todos los números enteros positivos entre 0 y el número tecleado por el usuario.
 
-7. Calcula la suma de todos los números enteros positivos entre 0 y el número tecleado por el usuario.
-
-8. Pide al usuario que teclee 4 números (uno cada vez). Con esos números el programa deberá calcular la media aritmética (la suma de todos ellos dividido por la cantidad de números).
+7. Pide al usuario que teclee 4 números (uno cada vez). Con esos números el programa deberá calcular la media aritmética (la suma de todos ellos dividido por la cantidad de números).
 
 8. Saca por consola los números primos del 0 al número que introduzca un usuario por prompt.
 

@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "funciones": "node funciones.js",
     "bucles": "node bucles.js",
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
