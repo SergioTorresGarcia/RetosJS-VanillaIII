@@ -115,12 +115,18 @@
 
 // 10. Crea una función que, dado un array de números, devuelva la suma de todos los números que contiene.
 
-const SumArray = (arr) => {
-    let total = 0
-    arr.map(el => total += el)
-    return console.log("La suma total de los elementos es",total)
-}
-SumArray([3, 7, 2, 35, 24])
+// const SumArray = (arr) => {
+//     let total = 0
+//     arr.map(el => total += el)
+//     return console.log("La suma total de los elementos es",total)
+// }
+// SumArray([3, 7, 2, 35, 24])
 
 
 // 11. Crea una función que, dados dos números A y B, obtenga el porcentaje(B) de un número(A).
+
+const Porcentaje = (A, B) => {
+    let p = A * B / 100
+    return console.log(`El ${B}% de ${A} es ${p.toFixed(2)}`)
+}
+Porcentaje(50, 17.35)
