@@ -93,20 +93,25 @@
 
 // 8. Crea una función que, dada una frase, cuente la cantidad de una letra en la misma. Por ejemplo, dada la palabra “javascript” y la letra “a”, debería devolver un 2.
 
-let count = 0
-const ContarLetras = (frase, letra) => {
-    let arr = Array.from(frase.toLowerCase())
-    for(ch of arr) {
-        if (ch === letra) {
-            count++
-        }
-    }
-    
-    return console.log(`There are ${count} "${letra}" in "${frase}"`)
-}
-ContarLetras("Javascript is not very strict", "r")
+// let count = 0
+// const ContarLetras = (frase, letra) => {
+//     let arr = Array.from(frase.toLowerCase())
+//     for(ch of arr) {
+//         if (ch === letra) {
+//             count++
+//         }
+//     }
+
+//     return console.log(`There are ${count} "${letra}" in "${frase}"`)
+// }
+// ContarLetras("Javascript is not very strict", "r")
 
 // 9. Crea una función que, dado un array de números, devuelva el número más grande del mismo.
+
+const OrderArray = (arr) => {
+    return console.log(arr.sort((a, b) => a - b).slice(-1))
+}
+OrderArray([3, 7, 2, 35, 24])
 
 // 10. Crea una función que, dado un array de números, devuelva la suma de todos los números que contiene.
 
