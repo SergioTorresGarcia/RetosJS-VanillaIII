@@ -1,5 +1,5 @@
 ### Ejercicios JS - Nivel Básico a Intermedio
-
+<hr>
 #### **Condicionales**
 1. Pedir dos números y decir si son múltiplos o no.
 2. Pedir dos números y decir cual es el mayor.
@@ -28,7 +28,7 @@ El usuario introduce marca y modelo y el programa saca el descuento correspondie
 
 12. Crea un programa en que se definan variables para el precio por kilómetro, el vehículo y los kilómetros recorridos. El vehículo y los kilómetros recorridos deben ser proporcionados por el usuario. A continuación, el programa debe realizar los cálculos para obtener el total a pagar, teniendo en cuenta las siguientes consideraciones: si el vehículo es “coche”, el precio por kilómetro ha de ser 0.10, si es “moto” ha de ser 0.20 y si es “autobús”, 0.5.
 
-
+<hr>
 #### **Bucles**
 1. Escribir un script que pida un valor entero y muestre en pantalla una lista de números desde el 0 al valor tecleado. Los números se separarán por comas.
 
@@ -39,10 +39,6 @@ El usuario introduce marca y modelo y el programa saca el descuento correspondie
 4. Escribe la tabla de multiplicar de un número introducido por el usuario.
 
 5. Formar un triángulo de este estilo con la cantidad de líneas que indique el usuario.
-*
-**
-***
-****
 
 6. Calcula la suma de todos los números enteros positivos entre 0 y el número tecleado por el usuario.
 
@@ -55,7 +51,7 @@ Modifica el programa para que el usuario introduzca dos números y se efectúe u
 
 10. Pide al usuario cinco números, almacénalos en un array y muestra por consola el resultado de cada uno de ellos multiplicado por 3. Muestra también un array que contenga todos los resultados.
 
-
+<hr>
 #### **Funciones**
 1. Crea una función que convierta grados celsius a grados fahrenheit.
 
