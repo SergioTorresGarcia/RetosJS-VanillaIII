@@ -1,14 +1,19 @@
 // **Funciones**
 // 1. Crea una función que convierta grados celsius a grados fahrenheit.
 
-const CelToFah = (C) => {
-    let F = (9/5 * C) + 32
-    return `${C}ºC = ${F.toFixed(2)}ºF`
-}
-console.log(CelToFah(37))
+// const CelToFah = (C) => {
+//     let F = (9/5 * C) + 32
+//     return `${C}ºC = ${F.toFixed(2)}ºF`
+// }
+// console.log(CelToFah(37))
 
 
 // 2. Crea una función que determine si un número es par o impar.
+
+const ParImpar = (num) => {
+    (num % 2 == 0) ? console.log(`${num} es par`) : console.log(`${num} es impar`)
+}
+ParImpar(38)
 
 // 3. Crea una función que determine si un número es primo o no.
 
