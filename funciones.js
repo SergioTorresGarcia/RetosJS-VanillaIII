@@ -54,14 +54,32 @@
 
 // 5. Crea una función que reciba 2 parámetros, precio e iva, y devuelva el precio con iva incluido. Si no recibe el iva, aplicará el 21 por ciento por defecto.
 
-const ConIva = (precio, iva = 21) => {
-    let total = precio + precio * iva/100
-    return console.log(`${precio} + iva(${iva}%) = ${total}`)
-}
-ConIva(150)
-ConIva(150, 8)
+// const ConIva = (precio, iva = 21) => {
+//     let total = precio + precio * iva/100
+//     return console.log(`${precio} + iva(${iva}%) = ${total}`)
+// }
+// ConIva(150)
+// ConIva(150, 8)
 
 // 6. Crea una función que determine si una letra es una vocal o una consonante.
+
+const vocales = ["a", "e", "i", "o", "u"]
+const QueLetraEs = (letra) => {
+    switch (letra.toLowerCase()) {
+        case "a":
+        case "e":
+        case "i":
+        case "o":
+        case "u":
+            console.log(`la letra "${letra}" es una vocal`)
+            break
+        default:
+            console.log(`la letra "${letra}" es una consonante`)
+            break
+    }
+}
+QueLetraEs("b")
+
 
 // 7. Crea una función que, dada una frase, convierta las A en 4, las E en 3, las I en 1 y las O en 0.
 
