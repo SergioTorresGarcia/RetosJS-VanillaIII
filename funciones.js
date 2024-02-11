@@ -41,18 +41,25 @@
 
 // 4. Crea una función que reciba un número de dni como parámetro, y devuelva la letra del mismo. Si el dni tiene algún error debe comunicarlo. Recuerda que el array de letras de DNI es [TRWAGMYFPDXBNJZSQVHLCKE].
 
-let arr = Array.from("TRWAGMYFPDXBNJZSQVHLCKE")
-const ComprobarDNI = (num) => {
-    let i = num % 23
-    let letra = arr[i]
-    let result = console.log(num, letra)
-    return result
-}
+// let arr = Array.from("TRWAGMYFPDXBNJZSQVHLCKE")
+// const ComprobarDNI = (num) => {
+//     let i = num % 23
+//     let letra = arr[i]
+//     let result = console.log(num, letra)
+//     return result
+// }
 
-console.log(ComprobarDNI(55433740))
+// console.log(ComprobarDNI(55433740))
 
 
 // 5. Crea una función que reciba 2 parámetros, precio e iva, y devuelva el precio con iva incluido. Si no recibe el iva, aplicará el 21 por ciento por defecto.
+
+const ConIva = (precio, iva = 21) => {
+    let total = precio + precio * iva/100
+    return console.log(`${precio} + iva(${iva}%) = ${total}`)
+}
+ConIva(150)
+ConIva(150, 8)
 
 // 6. Crea una función que determine si una letra es una vocal o una consonante.
 
