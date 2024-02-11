@@ -10,12 +10,34 @@
 
 // 2. Crea una función que determine si un número es par o impar.
 
-const ParImpar = (num) => {
-    (num % 2 == 0) ? console.log(`${num} es par`) : console.log(`${num} es impar`)
-}
-ParImpar(38)
+// const ParImpar = (num) => {
+//     (num % 2 == 0) ? console.log(`${num} es par`) : console.log(`${num} es impar`)
+// }
+// ParImpar(38)
+
 
 // 3. Crea una función que determine si un número es primo o no.
+
+const EsPrimo = (num) => {
+
+    if (num === 1) {
+        return false
+    }
+    else if (num === 2) {
+        return true
+    } else {
+        for (let i = 2; i < num; i++) {
+            if (num % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+EsPrimo(21) ? console.log(`SÍ es primo`) : console.log(`NO es primo`)
+
+
 
 // 4. Crea una función que reciba un número de dni como parámetro, y devuelva la letra del mismo. Si el dni tiene algún error debe comunicarlo. Recuerda que el array de letras de DNI es [TRWAGMYFPDXBNJZSQVHLCKE].
 
